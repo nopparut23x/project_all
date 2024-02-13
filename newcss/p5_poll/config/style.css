@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ----------------------------------- */
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 500px;
+}
+.boxcard-form {
+    width: 290px;
+}
+.fix-card {
+    width: 100vh;
+}
+/* ----------------------------------- */
+.form-login p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-login .btn {
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+}
+.form-login .btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-login .btn-w100 {
+    width: 100%;
+}
+.form-login input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.form-login input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-login a {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    color:dodgerblue;
+}
+.form-login a:hover {
+    color:rgba(0,0,0,0.3)
+}
+/* ----------------------------------- */
+.form-register p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-register .btn {
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+}
+.form-register .btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+    
+}
+.form-register .btn-w100 {
+    width: 100%;
+}
+.form-register input {
+    padding: 4px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.form-register input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-register a {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    color:dodgerblue;
+}
+.form-register a:hover {
+    color:rgba(0,0,0,0.3)
+}
+/* ----------------------------------- */
+.form-content h2 {
+    color:black;
+}
+.form-content p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-content .btn {
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+.form-content .btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-content .btn-w100 {
+    width: 100%;
+}
+.form-content .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-content .img-center img {
+    width: 250px;
+    height: 250px;
+}
+.form-content .w-50 {
+    width: 50%;
+}
+.gap {
+    gap:6px;
+}
+.form-content .btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-content .btn-w100 {
+    width: 100%;
+}
+.form-content input {
+    padding: 4px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.form-content input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-content a {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    color:dodgerblue;
+}
+.form-content a:hover {
+    color:rgba(0,0,0,0.3)
+}
+.form-content select {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    outline:none;
+
+}
+.form-content select:focus {
+    border: 1px solid dodgerblue;
+}
+/* ----------------------------------- */
+.form-poll h2 {
+    color:black;
+}
+.form-poll p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-poll .btn {
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+.form-poll .btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-poll .btn-w100 {
+    width: 100%;
+}
+.form-poll .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-poll .img-center img {
+    width: 250px;
+    height: 250px;
+}
+.form-poll .w-50 {
+    width: 50%;
+}
+.gap {
+    gap:6px;
+}
+.form-poll .btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-poll .btn-w100 {
+    width: 100%;
+}
+.form-poll input {
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.form-poll input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-poll a {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    color:dodgerblue;
+}
+.form-poll a:hover {
+    color:rgba(0,0,0,0.3)
+}
+/* ----------------------------------- */
+h2 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.w-100 {
+    width: 100%;
+}
+.jcc {
+    justify-content: center;
+}
+.btn {
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.btn-short {
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.btn-short:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+/* ----------------------------------- */

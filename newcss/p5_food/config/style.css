@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+/* ------------------------------------------------ */
+.sidebar {
+    background-color: orange;
+    width: 20vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    position: fixed;
+}
+.sidebar h2,h6   {
+    color:white;
+}
+.sidebar h2 {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.sidebar h6 {
+    margin-top: 3px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+.sidebar li {
+    list-style: none;
+}
+.sidebar li a {
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 14px 30px;
+    font-size: 18px;
+}
+.sidebar li a:hover {
+    background-color: white;
+    color:orange;
+}
+.sidebar .jcc {
+    display: flex;
+    justify-content: center;
+}
+.sidebar li a img {
+    width: 25px;
+    height: 25px;
+}
+.active {
+    background-color: white;
+    color:orange !important;
+}
+.content {
+    margin-left: 20vw;
+    padding: 16px;
+}
+/* ------------------------------------------------ */
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 500px;
+}
+.boxsm {
+    width: 350px;
+}
+/* ------------------------------------------------ */
+.form-style h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.form-style p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-style input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    outline:none;
+    border: 1px solid #ccc;
+}
+.form-style input:hover {
+    border: 1px solid orange;
+}
+.form-style button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color:white;
+}
+.form-style button:hover {
+    border: 2px solid orange;
+    background-color: white;
+    color:orange;
+}
+.form-style a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+.form-style a:hover {
+    color:orange;
+}
+.form-style select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    outline:none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+/* ------------------------------------------------ */
+.form-content h1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.form-content .img-profile {
+    display: flex;
+    justify-content: center;
+}
+.form-content .img-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.form-content p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-content .btn-between {
+    display: flex;
+    justify-content: center;
+    gap:6px;
+}
+.form-content .btn-between a {
+    text-decoration: none;
+    color:white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 3px;
+    width: 50%;
+    text-align: center;
+}
+.form-content .btn-between a:hover {
+    background-color: white;
+    border: 2px solid orange;
+    color:orange;
+}
+.form-content .img-poster {
+    display: flex;
+    justify-content: center;
+}
+.form-content .img-poster img {
+    width: 312px;
+    height: 312px;
+}
+.form-content .showstatusfood-warning {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 12px;
+    font-size: 18px;
+    color:orangered;
+}
+.form-content .showstatusfood-havestock {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 12px;
+    font-size: 18px;
+    color:orange;
+}
+.form-content .a-btn {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color:white;
+    background-color: orange;
+    padding: 10px ;
+    border-radius: 3px;
+}
+.form-content .a-btn:hover {
+    border: 2px solid orange;
+    color:orange;
+    background-color: white;
+}
+/* ------------------------------------------------ */
+h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.a-out {
+    text-decoration: none;
+    color:white;
+    background-color: orange;
+    padding: 10px ;
+    border-radius: 3px;
+}
+.a-out:hover {
+    border: 2px solid orange;
+    color:orange;
+    background-color: white;
+}
+.jcc {
+    justify-content: center;
+}
+
+/* ------------------------------------------------ */
+/* .dropdown {
+
+} */
+
+.dropdown button {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: orange;
+    color:white;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.dropdown button:hover {
+    background-color: white;
+    border: 2px solid orange;
+    color:orange;
+}
+.dropdown .dropdown-content {
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+.dropdown .dropdown-content {
+    position: absolute;
+    background-color: orange;
+    min-width: 160px;
+    z-index: 1;
+
+}
+.dropdown .dropdown-content a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.dropdown .dropdown-content a:hover {
+    background-color: white;
+    color:orange;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */

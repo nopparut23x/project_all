@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ====================================== */
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 30%;
+}
+.lock-box {
+    width: 284px;;
+}
+/* ====================================== */
+.form-style h1 {
+    margin:12px 0px 12px 0px;
+    text-align: center;
+}
+.form-style p {
+    margin:6px 0px 6px 0px;
+}
+.form-style input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline:none;
+}
+.form-style input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-style button {
+    display: block;
+    width: 100%;
+    margin:12px 0px 12px 0px;
+    padding:10px 12px;
+    border-radius: 3px;
+    border:none;
+    background-color: dodgerblue;
+    color:white;
+    cursor: pointer;
+}
+.form-style button:hover {
+    background-color: rgb(25, 115, 205);
+}
+
+.form-style a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color:dodgerblue;
+}
+.form-style select {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline:none;
+}
+.form-style select:focus {
+    border:1px solid dodgerblue;
+}
+/* ====================================== */
+
+.btn-dodgerblue {
+    display: block;
+    width: 100%;
+    margin:12px 0px 12px 0px;
+    padding:10px 12px;
+    border-radius: 3px;
+    border:none;
+    background-color: dodgerblue;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-dodgerblue:hover {
+    background-color: rgb(25, 115, 205);
+}
+
+.btn-dodgerblueshort {
+    margin:12px 0px 12px 0px;
+    padding:10px 12px;
+    border-radius: 3px;
+    border:none;
+    background-color: dodgerblue;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-dodgerblueshort:hover {
+    background-color: rgb(25, 115, 205);
+}
+
+/* ====================================== */
+.form-fixed h1 {
+
+}
+h1 {
+    text-align: center;
+}

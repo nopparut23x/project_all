@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.gap-name {
+    gap: 40%;
+}
+/* -------------------------------------- */
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 30%;
+}
+/* -------------------------------------- */
+a {
+    text-decoration: none;
+}
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+.img-center img {
+    width: 200px;
+    height: 200px;
+}
+.jcc {
+    justify-content: center;
+}
+/* -------------------------------------- */
+.form-login h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.form-login p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-login .a-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+.form-login .a-btn:hover {
+    background-color: #ccc;
+}
+.form-login .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+.form-login .btn:hover {
+    background-color: #ccc;
+}
+.form-login a {
+    text-align: center;
+    display: block;
+    color:gray;
+}
+.form-login a:hover {
+    color:#ccc;
+}
+.form-login input {
+    width: 100%;;
+    padding: 10px;
+}
+/* -------------------------------------- */
+.form-register h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.form-register p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.form-register .a-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+.form-register .a-btn:hover {
+    background-color: #ccc;
+}
+.form-register .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+.form-register .btn:hover {
+    background-color: #ccc;
+}
+.form-register a {
+    text-align: center;
+    display: block;
+    color:gray;
+}
+.form-register a:hover {
+    color:#ccc;
+}
+.form-register input {
+    width: 100%;;
+    padding: 4px;
+}
+.form-register select {
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+}
+.form-register .img-center img {
+    width: 100px;
+    height: 100px;
+}
+/* -------------------------------------- */
+/* .form-content {
+
+} */

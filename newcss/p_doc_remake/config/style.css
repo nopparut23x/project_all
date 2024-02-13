@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    background-color: rgb(103, 209, 108);
+    
+}
+/* ___________________________________________ */
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    background-color: rgb(255, 255, 255,0.3);
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 30%;
+}
+.box-items {
+    width: 300px;
+}
+.box-itemstwo {
+    width:300px;
+    height:300px;
+}
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+/* ___________________________________________ */
+.form-style h1 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+}
+.form-style p {
+    margin:6px;
+    color:white;
+}
+.form-style input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    outline:none;
+}
+.form-style input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-style button {
+    width: 100%;
+    border-radius: 3px;
+    padding:10px 12px;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+    cursor: pointer;
+}
+.form-style button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+.form-style a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top:12px;
+    color:white;
+}
+.form-style select {
+    width: 100%;
+    padding:6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    outline:none;
+}
+.form-style select:focus {
+    border: 1px solid dodgerblue;
+}
+.form-style h2 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+    color:white;
+    text-shadow: 2px 2px dodgerblue;
+}
+.form-style label {
+    color:white;
+}
+/* ___________________________________________ */
+.btn-green {
+    width: 100%;
+    border-radius: 3px;
+    padding:10px 12px;
+    border: 2px solid rgb(0, 197, 0);
+    color:rgb(2, 177, 2);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-green:hover {
+    background-color: rgb(0, 197, 0);
+    color:white;
+}
+.btn-yellow {
+    width: 100%;
+    border-radius: 3px;
+    padding:10px 12px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-yellow:hover {
+    background-color: dodgerblue;
+    color:white;
+}
+.btn-red {
+    width: 100%;
+    border-radius: 3px;
+    padding:10px 12px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-red:hover {
+    background-color: dodgerblue;
+    color:white;
+}
+.btn-dodgerblueshort {
+    border-radius: 3px;
+    padding:10px 12px;
+    border: none;
+    background-color: dodgerblue;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-dodgerblueshort:hover {
+    background-color: rgb(24, 100, 176);
+}
+.btn-dodgerblue {
+    border-radius: 3px;
+    padding:10px 12px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.btn-dodgerblue:hover {
+    background-color: white;
+    color:dodgerblue;
+}
+.btn-w100 {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+/* ___________________________________________ */
+.a-green {
+    border-radius: 3px;
+    padding:10px 12px;
+    border: 2px solid rgb(0, 197, 0);
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.a-green:hover {
+    background-color: rgb(0, 162, 0);
+}
+.a-yellow {
+    border-radius: 3px;
+    padding:10px 12px;
+    border: none;
+    background-color: rgb(255, 255, 83);
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.a-yellow:hover {
+    background-color: rgb(164, 164, 16);
+}
+.a-red {
+    border-radius: 3px;
+    padding:10px 12px;
+    border: none;
+    background-color: rgb(255, 58, 58);
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.a-red:hover {
+    background-color: rgb(164, 16, 16);
+}
+.a-dodgerblue {
+    border-radius: 3px;
+    padding:10px 12px;
+    border: none;
+    background-color: dodgerblue;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.a-dodgerblue:hover {
+    background-color: rgb(24, 100, 176);
+}
+h1 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+    color:white;
+}
+.jcc {
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+    color:white;
+}
+.tac {
+    text-align: center;
+}
+.dropdown {
+    width: 150px;
+}
+.dropdown p {
+    color:white;
+    width: 120px;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 0px 6px 0px gray;
+    background-color: rgba(255,255,255,0.3);
+    padding: 6px;
+    z-index: 1;
+}
+.dropdown-content a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.dropdown-content a:hover {
+    border: 2px solid white;
+    background-color: rgba(255,255,255,0.4);
+    color:dodgerblue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 1440px) {
+    .d-fixed {
+        display: flex;
+        justify-content: center;
+    }
+    .box-fixed {
+        width: 50%;
+    }
+    .form-style h2 {
+        font-size: 14px;
+    }
+    .form-style img {
+        width: 100px;
+        height: 100px;
+    }
+    .form-style button {
+        padding: 5px 10px;
+    }
+    .form-style p {
+        font-size: 12px;
+    }
+    .btn-dodgerblue {
+        padding: 5px 10px;
+    }
+    .btn-yellow {
+        padding: 5px 10px;
+    }
+    .btn-red {
+        padding: 5px 10px;
+    }
+    .btn-green {
+        padding: 5px 10px;
+    }
+    .a-dodgerblue {
+        padding: 5px 10px;
+    }
+    .a-yellow {
+        padding: 5px 10px;
+    }
+    .a-red {
+        padding: 5px 10px;
+    }
+    .a-green {
+        padding: 5px 10px;
+    }
+    .a-dodgerblueshort {
+        padding: 5px 10px;
+    }
+    .btn-dodgerblueshort {
+        padding: 5px 10px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    
+}
+@media screen and (max-width: 426px) {
+    .d-fixed {
+        justify-content: center;
+    }
+    .box-fixed {
+        width: 70%;
+    }
+    .dropdown {
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color:white;
+    }
+    .dropdown-content a:hover {
+        border: 2px solid white;
+        color:white;
+    }
+    .dropdown-content {
+        background-color: dodgerblue;
+        border: 2px solid white;
+    }
+    
+    
+}

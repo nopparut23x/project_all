@@ -1,0 +1,64 @@
+<?php
+$url = "user";
+require_once 'header.php';
+$where = array(
+    'usg_status' => 'user'
+);
+$log = $db->selectwhere('users', $where);
+if(isset($_GET['on'])){
+    $where = array(
+        'user_id' => $_GET['on']
+    );
+    $fields = array(
+        'status' => 1
+    );
+    $update = $db->update('users',$fields , $where);
+    if($update){
+        alert('อนุญาติเข้าใช้งานเรียบร้อย');
+        redirect('user.php');
+    }
+}
+if(isset($_GET['off'])){
+    $where = array(
+        'user_id' => $_GET['off']
+    );
+    $fields = array(
+        'status' => 0
+    );
+    $update = $db->update('users',$fields , $where);
+    if($update){
+        alert('ระงับเข้าใช้งานเรียบร้อย');
+        redirect('user.php');
+    }
+}
+?>
+<body>
+    <h2>จัดการผู้ใช้งาน</h2>
+<div class="d-fixed jcc">
+    <?php foreach($log as $row){ 
+        $de = array(
+            'de_id' => $row['de_id'],
+        );
+        $log_de = $db->selectwhere('department', $de);
+        foreach($log_de as $row2);
+        ?>
+    <div class="box-fixed" style="width:350px;">
+        <div class="form-content">
+        <div class="img-center">
+        <img src="<?php echo $row['profile'] ?>" width="200px" height="200px">
+        </div>
+    <p><b>ชื่อ : </b><?php echo $row['fname'] ?></p>
+    <p><b>นามสกุล : </b><?php echo $row['lname'] ?></p>
+    <p><b>อีเมล : </b><?php echo $row['email'] ?></p>
+    <p><b>เบอร์โทรศัพท์ : </b><?php echo $row['tell'] ?></p>
+    <p><b>ที่อยู่ : </b><?php echo $row['address'] ?></p>
+
+    <p><b>เเผนกวิชา : </b><?php echo $row2['de_name'] ?></p>
+    <br>
+    <?php echo $row['status'] == "1"?"<a class='btn btn-w100' href='?off={$row['user_id']}'>ระงับการใช้งาน</a>":"<a class='btn btn-w100' href='?on={$row['user_id']}'>อนุญาติใช้งาน</a>"; ?>
+    </div>
+    </div>
+        <?php } ?>
+</div>
+</body>
+</html>

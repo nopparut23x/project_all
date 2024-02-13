@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.sidebar {
+    background-color: dodgerblue;
+    width: 20vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    position: fixed;
+}
+.sidebar .text-header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    color:white;
+}
+.sidebar ul {
+    padding: 0;
+}
+.sidebar li {
+    list-style: none;
+}
+.sidebar li {
+    padding: 16px 38px;
+}
+.sidebar li:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+.sidebar li a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    display: block;
+}
+.sidebar .log-fix {
+    color:dodgerblue;
+}
+.sidebar .log-fix:hover {
+    color:white;
+}
+.sidebar li a:hover {
+    color:white;
+}
+.sidebar .btn-logout {
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+.sidebar .btn-logout:hover {
+    background-color: rgba(0,0,0,0.3)
+}
+.sidebar li a img {
+    width: 25px;
+    height: 25px;
+}
+.sidebar li a .img-hide {
+    display: none;
+}
+.active {
+    background-color: rgba(0,0,0,0.3);
+}
+.content {
+    margin-left: 20vw;
+    padding: 16px;
+}
+/* ---------------------------------------------------------------- */
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 3px;
+}
+.boxset-form {
+    width: 500px;
+}
+/* .boxsm {
+
+} */
+/* ---------------------------------------------------------------- */
+.form-style h1,h2  {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.form-style p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+.form-style input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    outline:none;
+    border: 1px solid #ccc;
+}
+.form-style input:hover {
+    border: 1px solid dodgerblue;
+}
+.form-style button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: dodgerblue;
+    color:white;
+    cursor: pointer;
+}
+.form-style button:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-style a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 12px;
+    color:dodgerblue;
+}
+.form-style a:hover {
+    color: rgba(0,0,0,0.3);
+}
+.form-style .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-style .img-center img {
+    width: 150px;
+    height: 150px;
+}
+/* ---------------------------------------------------------------- */
+.form-singlebox .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-singlebox .img-center img {
+    width: 300px;
+    height: 300px;
+}
+.form-singlebox p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-singlebox .btn-between {
+    display: flex;
+    justify-content: center;
+    gap:6px;
+}
+.form-singlebox .btn-between a {
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+}
+.form-singlebox .btn-between a:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-singlebox input {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.form-singlebox input:hover {
+    border: 1px solid dodgerblue;
+}
+.form-singlebox .btn-full {
+   width: 100%;
+   padding: 10px;
+   border-radius: 3px;
+   cursor: pointer;
+   border: none;
+   background-color: dodgerblue;
+   color:white;
+}
+.form-singlebox .btn-full:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+/* ---------------------------------------------------------------- */
+                            /* class แยกส่วน */
+/* ---------------------------------------------------------------- */
+.a-out {
+    text-decoration: none;
+    color:white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+.a-out:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+
+/* ---------------------------------------------------------------- */
+.form-profilebox .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-profilebox .img-center img {
+    width: 290px;
+    height: 290px;
+}
+.form-profilebox p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-profilebox .btn-between {
+    display: flex;
+    justify-content: center;
+    gap:6px;
+}
+.form-profilebox .btn-between a {
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+}
+.form-profilebox .btn-between a:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-profilebox .btn-single {
+    text-decoration: none;
+    color:white;
+    background-color:dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+}
+.form-profilebox .btn-single:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-profilebox .img-noneradius {
+    display: flex;
+    justify-content: center;
+}
+.form-profilebox .img-noneradius img {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+}
+.form-profilebox .btn-full {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    display: block;
+    background-color: dodgerblue;
+    color:white;
+    text-decoration: none;
+ }
+ .form-profilebox .btn-full:hover {
+     background-color: white;
+     border: 2px solid dodgerblue;
+     color:dodgerblue;
+ }
+/* ---------------------------------------------------------------- */
+.form-sumvote .img-noneradius {
+    display: flex;
+    justify-content: center;
+}
+.form-sumvote .img-noneradius img {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+}
+.form-sumvote p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/* ---------------------------------------------------------------- */
+@media screen and (max-width: 1300px) {
+    .sidebar li a span {
+        display: none;
+    }
+    .sidebar li {
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar li a .img-hide {
+        display: block;
+    }
+    .sidebar .btn-logout {
+        border-top: 1px solid white;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0,0,0,0.3);
+        border-bottom: 1px solid white;
+    }
+
+}
+@media screen and (max-width: 426px) {
+    .sidebar h1,h2 {
+        font-size: 14px;
+    }
+    .sidebar h6 {
+        display: none;
+    }
+    .form-singlebox .img-center img {
+        width: 190px;
+        height: 190px;
+    }
+    .box-fixed {
+        width: 380px;
+    }
+    .form-profilebox .img-center img {
+        width: 190px;
+        height: 190px;
+    }
+    .form-profilebox .img-noneradius img { 
+        width: 213px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sidebar h1,h2 {
+        font-size: 14px;
+    }
+    .sidebar h6 {
+        display: none;
+    }
+}
+/* ---------------------------------------------------------------- */

@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    flex-wrap: wrap;
+    gap:72px;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ==================================== */
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 30%;
+}
+/* ==================================== */
+.form-style h1 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+}
+.form-style p {
+    margin:6px 0px 6px 0px;
+}
+.form-style input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.form-style input:focus {
+    border: 1px solid dodgerblue;
+}
+.form-style select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    outline:none;
+    cursor: pointer;
+}
+.form-style select:focus {
+    border: 1px solid gray;
+}
+.form-style button {
+    width: 100%;
+    padding:10px 12px;
+    border: none;
+    background-color: dodgerblue;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.form-style button:hover {
+    background-color: rgb(25, 109, 194);
+}
+.form-style a {
+    text-align: center;
+    display: block;
+    color:dodgerblue;
+    text-decoration: none;
+
+}
+/* ==================================== */
+.btn-dodgerblue {
+    width: 100%;
+    display: block;
+    padding:10px 12px;
+    border: none;
+    background-color: dodgerblue;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn-dodgerblue:hover {
+    background-color: rgb(25, 109, 194);
+}
+.btn-dodgerblueshort {
+    /* width: 100%; */
+    padding:10px 12px;
+    border: none;
+    background-color: dodgerblue;
+    text-decoration: none;
+    border-radius: 3px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-dodgerblueshort:hover {
+    background-color: rgb(25, 109, 194);
+}
+.btn-green {
+    /* width: 100%; */
+    padding:10px 12px;
+    border: none;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 3px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-green:hover {
+    background-color: rgb(5, 99, 5);
+}
+.btn-yellow {
+    /* width: 100%; */
+    padding:10px 12px;
+    border: none;
+    background-color: rgb(193, 193, 10);
+    text-decoration: none;
+    border-radius: 3px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-yellow:hover {
+    background-color: rgb(142, 142, 10);
+}
+.btn-red {
+    /* width: 100%; */
+    padding:10px 12px;
+    border: none;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 3px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-red:hover {
+    background-color: rgb(140, 20, 20);
+}
+h1 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+}
+.btn-w100 {
+    width: 100%;
+    display: block;
+}   
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+}

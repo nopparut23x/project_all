@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ------------------------------------------- */
+.box {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+.box-fixed {
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+
+/* ------------------------------------------- */
+.form-login h1,h2 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.form-login p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-login input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}   
+.form-login button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color:white;
+    border: 2px solid dodgerblue;
+}
+.form-login button:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-login a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color:dodgerblue;
+    margin-top: 12px;
+}
+/* ------------------------------------------- */
+.form-register h1,h2 { 
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.form-register .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-register p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-register input {
+    padding: 4px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.form-register select {
+    padding: 4px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-register button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    color:white;
+}
+.form-register button:hover {
+    background-color: white;
+    border: 2px solid dodgerblue;
+    color:dodgerblue;
+}
+.form-register a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color:dodgerblue;
+    margin-top: 12px;
+}
+/* ------------------------------------------- */
+.form-content h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.form-content p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.form-content .btn {
+    text-decoration: none;
+    color:white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    border: 2px solid dodgerblue;
+}
+.form-content .btn:hover {
+    border: 2px solid dodgerblue;
+    background-color: white;
+    color:dodgerblue;
+}
+.form-content .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-content input {
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.form-content .btn-w100 {
+    width: 100%;
+    cursor: pointer;
+}
+.jcc {
+    justify-content: center;
+}
+.form-content select {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+/* ------------------------------------------- */
+.btn-w100 {
+    width: 100%;
+    cursor: pointer;
+}
+.btn {
+    text-decoration: none;
+    color:white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid dodgerblue;
+}
+.btn:hover {
+    border: 2px solid dodgerblue;
+    background-color: white;
+    color:dodgerblue;
+}
+/* ------------------------------------------- */
+.dropdown {
+    width: 107px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown button {
+    padding: 10px;
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 3px;
+}
+.dropdown button:hover {
+    border: 2px solid dodgerblue;
+    background-color: white;
+    color:dodgerblue;
+    cursor: pointer;
+}
+.dropdown .dropdown-content {
+    display: none;
+    background-color: dodgerblue;
+    max-width:250px;
+    position: absolute;
+    font-size: 14px;
+}
+.dropdown .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    z-index: 1px;
+}
+.dropdown .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */

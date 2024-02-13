@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+body {
+    background-color: #673ab7;
+}
+.d-flex {
+    display: flex;
+}
+.d-fixed {
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 5px 5px 1px 0px white;
+    padding: 1.2rem;
+    width: 293px;
+    height: auto;
+    border-radius: 6px;
+}
+.box:hover {
+    box-shadow: 0px 0px 6px 0px white;
+}
+.box-fixed {
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 5px 5px 1px 0px white;
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1.2rem;
+    border-radius: 6px;
+    border-radius: 6px;
+}
+.boxset-form {
+    width: 30%;
+}
+h1 {
+    text-align: center;
+    margin:12px 0px 12px 0px;
+    color:white;
+    text-shadow: 2px 2px gray;
+    padding: 6px;
+}
+.box .form-style .img-center {
+    display: flex;
+    justify-content: center;
+}
+.box .form-style .img-center img {
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+}
+.form-style .img-center {
+    display: flex;
+    justify-content: center;
+}
+.form-style .img-center img {
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+}
+
+/* -------------------------------------- */
+.form-style p {
+    padding: 6px 0px 6px 0px;
+}
+.form-style h2 {
+    text-shadow: 2px 2px gray;
+}
+.form-style input {
+   padding: 6px;
+   width: 100%;
+   border: none;
+   border-radius: 3px;
+   outline:none;
+}
+.form-style input:focus {
+    border: 2px solid purple;
+}
+.form-style button {
+    text-align: center;
+    display: block;
+    background-color: #7e57c2;
+    border: 2px solid white;
+    color:white;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+.form-style button:hover {
+    background-color: #673ab7;
+    color:white;
+    border: 2px solid white;
+}
+.form-style a {
+    color:white;
+    text-align: center;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color:white;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+}
+/* -------------------------------------------- */
+.btn {
+    text-align: center;
+    display: block;
+    background-color: #7e57c2;
+    border: 2px solid white;
+    color:white;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: #673ab7;
+    color:white;
+    border: 2px solid white;
+}
+/* -------------------------------------------- */
+.jcc {
+    justify-content: center;
+}
+.full-box {
+    width: 100%;
+}
+.gap {
+    gap:15px;
+}
+h2 {
+    color:white;
+    text-align: center;
+    margin:12px 0px 12px 0px;
+}
+
+.a-btn {
+    text-align: center;
+    background-color: #7e57c2;
+    border: 2px solid white;
+    color:white;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.a-btn:hover {
+    background-color: #673ab7;
+    color:white;
+    border: 2px solid white;
+}
+.form-style input[type="radio"] {
+    width: auto;
+    margin-bottom: 24px;
+}
+.form-style .radio-center {
+    display: flex;
+    justify-content: center;
+}
+.w-100 {
+    width: 100%;
+}
+.btn-block {
+    display: block;
+}
+@media screen and (max-width: 1440px) {
+    .form-style .img-center img {
+        width: 150px;
+        height: 150px;
+    }
+    .d-fixed {
+        justify-content: center;
+    }
+    .box-fixed {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 790px) {
+    .form-style .img-center img {
+        width: 100px;
+        height: 100px;
+    }
+    .form-style h1,h2 {
+        font-size: 18px;
+    }
+    .form-style p {
+        font-size: 14px;
+    }
+    .box-fixed {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .form-style .img-center img {
+        width: 100px;
+        height: 100px;
+    }
+    .form-style h1,h2 {
+        font-size: 18px;
+    }
+    .form-style p {
+        font-size: 14px;
+    }
+    .box-fixed {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .form-style h1,h2 {
+        font-size: 18px;
+    }
+    .form-style p {
+        font-size: 14px;
+    }
+    .box-fixed {
+        width: 70%;
+    }
+}
